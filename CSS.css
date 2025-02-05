@@ -28,34 +28,37 @@ li{font-family: 'Arial';color: #fff;font-size: 18px;}
 
 
 /*Краткая история сервера и ссылки на др.страницы    ####################################*/
-.main{
-    display: block;
+.owner{margin: auto;}
+
+.owner .main{
+    display: flex;
     margin-left: 30px;
     margin-top: 20px;
     float: left;
-    height: 500px;
-    width: 1020px;
+    height: 20%;
+    width: 77%;
     border-width: 3px;
     border-style: solid;
     border-color: rgba(35, 36, 79, 0.6);
     background-color: rgba(20, 20, 26, 0.7);
 }
 
-.main .history{
+.owner .main .history{
     display: block;
     margin: 10px 10px;
-    height: 480px;
-    width: 1000px;
-    overflow-x: auto;
+    max-height: 500px;
+    max-width: 100%;
+    overflow-x: scroll;
 }
 
-.other{
-    display: block;
-    float: right;
+.owner .other{
+    text-align: center;
+    display: flex;
+    float: left;
     margin-top: 20px;
-    margin-right: 46px;
-    height: 200px;
-    width: 230px;
+    margin-left: 0;
+    height: 25%;
+    width: 15%;
     font-family: monospace;
     border-width: 3px;
     border-style: solid;
@@ -64,18 +67,60 @@ li{font-family: 'Arial';color: #fff;font-size: 18px;}
     background-color: rgba(20, 20, 26, 0.7);
 }
 
-.abx{color: #fff;height: 30px;}
+.owner .other .but{
+    display: inline-block;
+    margin: 7%;
+}
 /*#######################################################################################*/
 
 
 
 /*Кнопки    #############################################################################*/
-.clan{display: inline-block;cursor: pointer;font-size: 16px;text-decoration: none;padding: 2px 70px;color: #ffffff;border: 2px solid #fff;}
+.clan{
+    min-width: 60px;
+    max-width: 160px;
+    height: 16px;
+    padding: 8px;
+    display: flex;
+    cursor: pointer;
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #fff;
+}
 .clan:hover{color: #802f2f;border: 4px solid #802f2f;font-size: 17px;transition: all 0.26s ease;}
 
-.town{display: inline-block;cursor: pointer;font-size: 16px;text-decoration: none;padding: 2px 66px;color: #ffffff;border: 2px solid #fff;}
+.town{
+    min-width: 60px;
+    max-width: 160px;
+    height: 16px;
+    padding: 8px;
+    display: flex;
+    cursor: pointer;
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #fff;
+}
 .town:hover{color: #476e42;border: 4px solid #476e42;font-size: 17px;transition: all 0.26s ease;}
 
-.update{display: inline-block;cursor: pointer;font-size: 16px;text-decoration: none;padding: 2px 48px;color: #ffffff;border: 2px solid #fff;}
+.update{
+    min-width: 60px;
+    width: 160px;
+    height: 16px;
+    padding: 8px;
+    display: flex;
+    cursor: pointer;
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #fff;
+}
 .update:hover{color:#5d7c91;border:4px solid #354251;font-size: 17px;transition: all 0.26s ease;}
 /*#######################################################################################*/
