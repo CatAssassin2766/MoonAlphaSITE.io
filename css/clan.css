@@ -1,0 +1,10 @@
+h1{font-family: monospace;font-size: 48px;color: #fff;}
+h2{font-family: 'Arial Black';color: #fff;}
+h3{font-family: monospace;color:#fff;font-size: 24px;}
+p{font-family: 'Arial';color: #fff;font-size: 18px;}
+li{font-family: 'Arial';color: #fff;font-size: 18px;}
+
+body{background-color: dimgray;
+    background-image: url(Enigma1.png);
+    background-size: cover;
+    background-repeat: no-repeat;}
